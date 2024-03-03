@@ -26,8 +26,13 @@ console.log(getRestAfterDivision(7000, 3));
 Вызовите функции и выведите в консоль их результаты.*/
 
 function increment(x) {
-  x = 5;
   x++;
   return x;
 }
 console.log(increment(5));
+
+function decrement(x) {
+  x--;
+  return x;
+}
+console.log(decrement(12));
